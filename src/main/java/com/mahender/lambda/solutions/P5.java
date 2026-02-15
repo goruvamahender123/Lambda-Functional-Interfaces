@@ -24,6 +24,7 @@ public class P5 {
 //		Consumer<Integer> consumer = n -> System.out.println(" Square is "+ n * n);
 //		consumer.accept(89);
 		
+		// Fifth way - Best
 		Function<BigDecimal, BigDecimal> squareMoney = a -> a.multiply(a);
 		        System.out.println(squareMoney.apply(new BigDecimal("9.0")));
 		

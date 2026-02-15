@@ -12,27 +12,20 @@ public class P7 {
 		// First way for ascending order
 //		values.sort((a, b) -> a-b);
 //		System.out.println("New list with ascending order is "+values);
-		
-		
-		// First way for descending order
-//		values.sort((a, b) -> b-a);
-//		System.out.println("New list with ascending order is "+values);
-		
+				
 		// Second way of ascending order
 //		values.sort((Integer::compare));
 //		System.out.println("New list with ascending order is "+values);
 		
-		// Second way for descending order
-//		values.sort(Comparator.reverseOrder());
-//		System.out.println("New list with descending order is "+values);
 		
 		// Third way of ascending order
 //		List<Integer> list = values.stream().sorted((a, b) -> a-b).toList();
 //		System.out.println("New list with ascending order is "+list);
 		
-		// Third way of descending order
-		List<Integer> list = values.stream().sorted(Comparator.reverseOrder()).toList();
-		System.out.println("New list with descending order is "+list);
+		
+		// Fourth way of ascending order - Best
+		values.sort(Integer::compareTo);
+		System.out.println("New list with ascending order is "+values);
 		
 	}
 }

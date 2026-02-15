@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 
 public class P1 {
 	public static void main(String[] args) {
-		// First way
+		// First way - Best
 		new Thread(() -> System.out.println("Hello World")).start();
 		
 		// Second way

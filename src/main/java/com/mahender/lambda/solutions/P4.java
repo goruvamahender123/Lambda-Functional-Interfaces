@@ -21,7 +21,7 @@ public class P4 {
 //		System.out.println(predicate.test(n) ? "isEven" : "Odd");
 //		sc.close();
 		
-		// Third way
+		// Third way - Best
 		IntPredicate predicate = P4::isEven;
 		System.out.println(predicate.test(n) ? "isEven" : "Odd");
         sc.close();

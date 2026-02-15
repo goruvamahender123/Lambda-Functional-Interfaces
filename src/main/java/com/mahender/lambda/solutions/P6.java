@@ -14,7 +14,7 @@ public class P6 {
 //		};
 //		runnable.run();
 		
-		// Replaced anonymous inner class
+		// Replaced anonymous inner class - Best
 		Runnable runnable = () -> System.out.println("Mahender");
 		runnable.run();
 	}

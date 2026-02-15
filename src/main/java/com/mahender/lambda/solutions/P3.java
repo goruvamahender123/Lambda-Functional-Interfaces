@@ -14,7 +14,7 @@ public class P3 {
 //		BinaryOperator<Integer> binaryOperator = (a,b) -> a+b;
 //		System.out.println(binaryOperator.apply(8, 9));
 		
-	// Third way
+	// Third way - Best
 		IntBinaryOperator intBinaryOperator = (a, b) -> a+b;
 		System.out.println(intBinaryOperator.applyAsInt(9, 0));
 	}

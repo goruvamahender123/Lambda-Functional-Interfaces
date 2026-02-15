@@ -10,7 +10,7 @@ public class P2 {
 //		MessageProvider messageProvider = () -> "Hello from Lambda";
 //		System.out.println(messageProvider.getMessage());
 
-		// Third way
+		// Third way - Best
 		Greeting greeting = (s) -> System.out.println("Hi " + s);
 		doGreet(greeting);
 	}
