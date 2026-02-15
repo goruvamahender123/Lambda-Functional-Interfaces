@@ -13,6 +13,7 @@
 8. Sort a list in descending order using lambda.
 9. Use lambda to iterate over a list and print elements.
 10. Use lambda with Comparator to sort strings by length.
+11. Use lambda with Comparator to sort string by alphabetically and lexicographically
 
 ---
 
