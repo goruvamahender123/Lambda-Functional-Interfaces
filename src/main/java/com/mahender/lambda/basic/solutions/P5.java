@@ -1,4 +1,4 @@
-package com.mahender.lambda.solutions;
+package com.mahender.lambda.basic.solutions;
 
 import java.math.BigDecimal;
 import java.util.function.Consumer;

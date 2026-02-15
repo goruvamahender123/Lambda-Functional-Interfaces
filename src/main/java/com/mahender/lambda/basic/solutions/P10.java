@@ -1,4 +1,4 @@
-package com.mahender.lambda.solutions;
+package com.mahender.lambda.basic.solutions;
 
 import java.util.Arrays;
 import java.util.Comparator;
