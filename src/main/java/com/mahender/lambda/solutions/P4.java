@@ -1,6 +1,8 @@
 package com.mahender.lambda.solutions;
 
 import java.util.Scanner;
+import java.util.function.IntPredicate;
+import java.util.function.IntUnaryOperator;
 import java.util.function.Predicate;
 
 public class P4 {
@@ -10,8 +12,22 @@ public class P4 {
 		int n = sc.nextInt();
 		
 		// First way
-		Predicate<Integer> predicate = a -> a%2 == 0;
+//		Predicate<Integer> predicate = a -> a%2 == 0;
+//		System.out.println(predicate.test(n) ? "isEven" : "Odd");
+//		sc.close();
+		
+		// Second way
+//		IntPredicate predicate = a -> a%2 == 0;
+//		System.out.println(predicate.test(n) ? "isEven" : "Odd");
+//		sc.close();
+		
+		// Third way
+		IntPredicate predicate = P4::isEven;
 		System.out.println(predicate.test(n) ? "isEven" : "Odd");
-		sc.close();
+        sc.close();
+	}
+	
+	public static boolean isEven(int n) {
+		return n%2 == 0;
 	}
 }
