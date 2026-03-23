@@ -13,12 +13,12 @@
 8. Sort a list in descending order using lambda.
 9. Use lambda to iterate over a list and print elements.
 10. Use lambda with Comparator to sort strings by length.
+11. Use lambda with Comparator to sort string by alphabetically and lexicographically
 
 ---
 
 # 🔥 Predicate Based Questions (Very Frequently Asked)
 
-11. Filter even numbers using Predicate.
 12. Filter strings starting with a specific letter.
 13. Remove elements from list using removeIf().
 14. Use Predicate to check if string is empty.
@@ -148,6 +148,6 @@
 98. Use method reference instead of lambda.
 99. Replace traditional loop with Stream API.
 100. Explain why lambda works only with functional interface (with example).
-101. Use lambda with Comparator to sort string by alphabetically and lexicographically
+101. Filter even numbers using Predicate.
 ---
 
